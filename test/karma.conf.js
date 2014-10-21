@@ -27,6 +27,7 @@ module.exports = function(config) {
       'bower_components/angular-sanitize/angular-sanitize.js',
       'bower_components/angular-touch/angular-touch.js',
       'bower_components/ng-token-auth/dist/ng-token-auth.js',
+      'test/test-helper.js',
       'app/scripts/**/*.js',
       'test/spec/**/*.js'
     ],
