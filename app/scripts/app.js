@@ -18,7 +18,7 @@ angular
     'ngTouch',
     'ng-token-auth'
   ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, $authProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
